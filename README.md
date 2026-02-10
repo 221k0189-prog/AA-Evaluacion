@@ -58,6 +58,3 @@ Luego recorta/optimiza/edita tu imagen como desees, agrégala a tu carpeta de pr
 
 **Nota: Elimina esta nota y agrega/elimina/edita las líneas anteriores según los enlaces que desees compartir.**
 
-https://github.com/221k0189-prog/AA-Evaluacion
-
-https://evaluaformativa.netlify.app/
