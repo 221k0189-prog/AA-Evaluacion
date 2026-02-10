@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form class="contact-form" action="" method="POST">
+            <h1>Contact Us</h1>
+           
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="firstName">First Name <span class="required">*</span></label>
+                    <input type="text" id="firstName" name="firstName" required>
+                    <span class="error-message"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="lastName">Last Name <span class="required">*</span></label>
+                    <input type="text" id="lastName" name="lastName" required>
+                    <span class="error-message"></span>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address <span class="required">*</span></label>
+                <input type="email" id="email" name="email" placeholder="email#example.com" required>
+                <span class="error-message"></span>
+            </div>
+            
+            <div class="form-group">
+                <label>Query Type <span class="required">*</span></label>
+                <div class="radio-group">
+                    <label class="radio-option">
+                        <input type="radio" name="queryType" value="general">
+                        <span class="radio-label">General Enquiry</span>
+                    </label>
+                    
+                    <label class="radio-option">
+                        <input type="radio" name="queryType" value="support">
+                        <span class="radio-label">Support Request</span>
+                    </label>
+                </div>
+                <span class="error-message"></span>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Message <span class="required">*</span></label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <span class="error-message"></span>
+            </div>
+            
+            <div class="form-group checkbox-group">
+                <label class="checkbox-label">
+                    <input type="checkbox" name="consent" required>
+                    <span>I consent to being contacted by the team <span class="required">*</span></span>
+                </label>
+                <span class="error-message"></span>
+            </div>
+            
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+    <script src="Validation.js"></script>
+   
+</body>
+</html>
