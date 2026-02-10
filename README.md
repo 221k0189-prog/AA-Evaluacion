@@ -54,7 +54,7 @@ Luego recorta/optimiza/edita tu imagen como desees, agrégala a tu carpeta de pr
 - N° Control 221k0189
 - Grupo 8A
 - Sitio  - [AA 1.1 Evaluacion diagnostica](https://evaluaformativa.netlify.app/)
-- Github - [@tuusuario](https://github.com/221k0189-prog/AA-Evaluacion)
+- Github - (https://github.com/221k0189-prog/AA-Evaluacion)
 
 **Nota: Elimina esta nota y agrega/elimina/edita las líneas anteriores según los enlaces que desees compartir.**
 
